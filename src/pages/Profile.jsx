@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { getDashboard } from '../services/api';
 
-const BASE_URL = 'http://localhost:8080/api';
+const BASE_URL = 'https://expense-tracker-backend-v3.onrender.com/api';
 const getToken = () => localStorage.getItem('token');
 
 export default function Profile() {
